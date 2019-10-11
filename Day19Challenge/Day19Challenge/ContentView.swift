@@ -9,8 +9,41 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = ViewModel()
+
     var body: some View {
-        Text("Hello World")
+        Form {
+            Section(header: Text("Select conversion type")) {
+                Picker("Select conversion type", selection: $model.typeIndex) {
+                    ForEach(model.types.indices, id: \.self) { typeIndex in
+                        Text(self.model.types[typeIndex])
+                    }
+                }.pickerStyle(SegmentedPickerStyle())
+            }
+
+            Section(header: Text(model.headerString)) {
+                Picker("Source unit", selection: $model.inputUnitIndex) {
+                    ForEach(self.model.units[self.model.typeIndex].indices, id: \.self) { unitIndex in
+                        Text(self.model.units[self.model.typeIndex][unitIndex].abbreviation)
+                    }
+                }.pickerStyle(SegmentedPickerStyle())
+
+                Picker("Destination unit", selection: $model.outputUnitIndex) {
+                    ForEach(self.model.units[self.model.typeIndex].indices, id: \.self) { unitIndex in
+                        Text(self.model.units[self.model.typeIndex][unitIndex].abbreviation)
+                    }
+                }.pickerStyle(SegmentedPickerStyle())
+            }
+
+            Section {
+                TextField("Enter an amount", text: $model.amount)
+                    .keyboardType(.decimalPad)
+            }
+
+            Section(header: Text("Result")) {
+                Text(model.convertedValue)
+            }
+        }
     }
 }
 

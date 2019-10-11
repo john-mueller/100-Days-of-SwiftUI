@@ -13,6 +13,7 @@
 		2C29E3D12350B0DA008DFE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C29E3D02350B0DA008DFE1B /* Assets.xcassets */; };
 		2C29E3D42350B0DA008DFE1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C29E3D32350B0DA008DFE1B /* Preview Assets.xcassets */; };
 		2C29E3D72350B0DA008DFE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C29E3D52350B0DA008DFE1B /* LaunchScreen.storyboard */; };
+		2CA38C492351296600AF8C3C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA38C482351296600AF8C3C /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2C29E3D32350B0DA008DFE1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C29E3D62350B0DA008DFE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C29E3D82350B0DA008DFE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA38C482351296600AF8C3C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2C29E3CA2350B0D9008DFE1B /* AppDelegate.swift */,
 				2C29E3CC2350B0D9008DFE1B /* SceneDelegate.swift */,
 				2C29E3CE2350B0D9008DFE1B /* ContentView.swift */,
+				2CA38C482351296600AF8C3C /* ViewModel.swift */,
 				2C29E3D02350B0DA008DFE1B /* Assets.xcassets */,
 				2C29E3D52350B0DA008DFE1B /* LaunchScreen.storyboard */,
 				2C29E3D82350B0DA008DFE1B /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				2C29E3CB2350B0D9008DFE1B /* AppDelegate.swift in Sources */,
 				2C29E3CD2350B0D9008DFE1B /* SceneDelegate.swift in Sources */,
+				2CA38C492351296600AF8C3C /* ViewModel.swift in Sources */,
 				2C29E3CF2350B0D9008DFE1B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
