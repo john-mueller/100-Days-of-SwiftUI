@@ -15,6 +15,9 @@ struct ContentView: View {
     @State private var showingScore = false
     @State private var scoreTitle = ""
 
+    @State private var score = 0
+    @State private var questionsAsked = 0
+
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.blue, .black]), startPoint: .top, endPoint: .bottom)
@@ -37,8 +40,8 @@ struct ContentView: View {
                     }) {
                         Image(self.countries[number])
                             .renderingMode(.original)
-                            .clipShape(Capsule())
-                            .overlay(Capsule().stroke(Color.black, lineWidth: 1))
+                            .clipShape(RoundedRectangle(cornerRadius: 15))
+                            .overlay(RoundedRectangle(cornerRadius: 15).stroke(Color.black, lineWidth: 1))
                             .shadow(color: .black, radius: 2)
                     }
                 }
@@ -47,18 +50,28 @@ struct ContentView: View {
             }
         }
         .alert(isPresented: $showingScore) {
-            Alert(title: Text(scoreTitle), message: Text("Your score is ???"), dismissButton: .default(Text("Continue")) {
-                self.askQuestion()
-            })
+            Alert(title: Text(scoreTitle),
+                  message: Text("Your \(questionsAsked == 10 ? "final " : "")score is \(score)"),
+                  dismissButton: .default(Text(questionsAsked == 10 ? "Play Again" : "Continue")) {
+                    if self.questionsAsked == 10 {
+                        self.score = 0
+                        self.questionsAsked = 0
+                    }
+                    self.askQuestion()
+                })
         }
     }
 
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
-            scoreTitle = "Correct"
+            scoreTitle = "Correct!"
+            score += 1
         } else {
-            scoreTitle = "Wrong"
+            scoreTitle = "Wrong! That's the flag of \(countries[number])"
+            score -= 1
         }
+
+        questionsAsked += 1
 
         showingScore = true
     }
