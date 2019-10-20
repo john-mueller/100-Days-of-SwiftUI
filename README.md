@@ -33,6 +33,11 @@ No project files
 
 Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Day25Challenge))
 
+### [BetterRest][day26] (Days 26-28)
+
+Original project ([cf1e1fd](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/cf1e1fda95154ca6b6c8b899b10a757f2ec51f69/BetterRest))  
+After Day 28 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/BetterRest))
+
 
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
@@ -41,6 +46,7 @@ Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/t
 [day20]: https://www.hackingwithswift.com/100/swiftui/20
 [day23]: https://www.hackingwithswift.com/100/swiftui/23
 [day25]: https://www.hackingwithswift.com/100/swiftui/25
+[day26]: https://www.hackingwithswift.com/100/swiftui/26
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
 [xcode-version]: https://img.shields.io/badge/Xcode-11.2%20(beta)-orange.svg
