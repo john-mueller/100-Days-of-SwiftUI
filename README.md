@@ -29,6 +29,10 @@ After Day 24 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 
 No project files
 
+### [Day25Challenge][day25] (Day 25)
+
+Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Day25Challenge))
+
 
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
@@ -36,6 +40,7 @@ No project files
 [day19]: https://www.hackingwithswift.com/100/swiftui/19
 [day20]: https://www.hackingwithswift.com/100/swiftui/20
 [day23]: https://www.hackingwithswift.com/100/swiftui/23
+[day25]: https://www.hackingwithswift.com/100/swiftui/25
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
 [xcode-version]: https://img.shields.io/badge/Xcode-11.2%20(beta)-orange.svg
