@@ -5,7 +5,7 @@
 
 Here are my solutions to the [100 Days of SwiftUI][100-days] course by Paul Hudson. I very much recommend trying to complete these yourself before looking at other solutions.
 
-**10/12/2019**: There are some bugs with `Picker` in XCode 11.1 that affect my Day19Challenge project in particular. They are fixed in the current XCode 11.2 beta (11B41) using the iOS 13.2 simulator.
+**10/12/2019**: There are some bugs with `Picker` in XCode 11.1 that affect my Day19Challenge project in particular. They are fixed in the current XCode 11.2 beta (11B44) using the iOS 13.2 simulator.
 
 ## Contents 
 
@@ -38,6 +38,10 @@ Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/t
 Original project ([cf1e1fd](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/cf1e1fda95154ca6b6c8b899b10a757f2ec51f69/BetterRest))  
 After Day 28 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/BetterRest))
 
+### [WordScramble][day29] (Days 29-31)
+
+Original project ([4f50943](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/4f509432efb01f505092aa1c2c81bb70e6cfdcf1/WordScramble))  
+After Day 31 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/WordScramble))
 
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
@@ -47,6 +51,7 @@ After Day 28 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 [day23]: https://www.hackingwithswift.com/100/swiftui/23
 [day25]: https://www.hackingwithswift.com/100/swiftui/25
 [day26]: https://www.hackingwithswift.com/100/swiftui/26
+[day29]: https://www.hackingwithswift.com/100/swiftui/29
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
 [xcode-version]: https://img.shields.io/badge/Xcode-11.2%20(beta)-orange.svg

@@ -17,20 +17,33 @@ struct ContentView: View {
     @State private var errorMessage = ""
     @State private var showingError = false
 
+    private var points: Int {
+        usedWords.reduce(0) { sum, word in sum + (word.count - 2) }
+    }
+
+    private var score: Int {
+        usedWords.count * points
+    }
+
     var body: some View {
         NavigationView {
             VStack {
                 TextField("Enter your word", text: $newWord, onCommit: addNewWord)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .autocapitalization(.none)
+                    .disableAutocorrection(true)
                     .padding()
 
+                Text("Your score is \(score)")
+                Text("(\(usedWords.count) words x \(points) points)")
+
                 List(usedWords, id: \.self) {
-                    Image(systemName: "\($0.count).circle")
+                    Image(systemName: "\($0.count - 2).circle")
                     Text($0)
                 }
             }
             .navigationBarTitle(rootWord)
+            .navigationBarItems(leading: Button("New Word", action: startGame))
             .onAppear(perform: startGame)
             .alert(isPresented: $showingError) {
                 Alert(title: Text(errorTitle), message: Text(errorMessage), dismissButton: .default(Text("OK")))
@@ -41,7 +54,13 @@ struct ContentView: View {
     func addNewWord() {
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
 
-        guard answer.count > 0 else {
+        if answer == rootWord {
+            wordError(title: "Word not original", message: "Really?")
+            return
+        }
+
+        if answer.count < 3 {
+            wordError(title: "Word too short", message: "That's too easy!")
             return
         }
 
@@ -70,6 +89,8 @@ struct ContentView: View {
                 let allWords = startWords.components(separatedBy: "\n")
 
                 rootWord = allWords.randomElement() ?? "silkworm"
+                usedWords = []
+                newWord = ""
 
                 return
             }
