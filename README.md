@@ -23,7 +23,8 @@ Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/t
 
 Original project ([628c339](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/628c339259fc7e2f5e6bd5668463404edaf69e50/GuessTheFlag))  
 After Day 22 challenges ([f037e02](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/f037e02f92d72d2c95ffbf23455d33bd5e197779/GuessTheFlag))  
-After Day 24 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/GuessTheFlag))
+After Day 24 challenges ([57fbd9b](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/57fbd9b3e1322cf39aee77bf15a1529fee162889/GuessTheFlag))  
+After Day 34 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/GuessTheFlag))
 
 ### [ViewsAndModifiers][day23] (Days 23-24)
 
@@ -43,6 +44,10 @@ After Day 28 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 Original project ([4f50943](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/4f509432efb01f505092aa1c2c81bb70e6cfdcf1/WordScramble))  
 After Day 31 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/WordScramble))
 
+### [Animations][day32] (Days 32-34)
+
+No project files
+
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
 [day16]: https://www.hackingwithswift.com/100/swiftui/16
@@ -52,6 +57,7 @@ After Day 31 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 [day25]: https://www.hackingwithswift.com/100/swiftui/25
 [day26]: https://www.hackingwithswift.com/100/swiftui/26
 [day29]: https://www.hackingwithswift.com/100/swiftui/29
+[day32]: https://www.hackingwithswift.com/100/swiftui/32
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
 [xcode-version]: https://img.shields.io/badge/Xcode-11.2%20(beta)-orange.svg
