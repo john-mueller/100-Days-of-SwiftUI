@@ -54,7 +54,8 @@ No project files yet
 
 ### [iExpense][day36] (Days 36-38)
 
-Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/iExpense))
+Original project ([e032bb4](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/e032bb489ef0f1834f7721f0bfad8864b7cc2f2f/iExpense))  
+After Day 38 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/iExpense))
 
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 

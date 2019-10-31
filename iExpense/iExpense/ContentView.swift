@@ -25,11 +25,13 @@ struct ContentView: View {
                         Spacer()
                         Text("$\(item.amount)")
                     }
+                    .foregroundColor(item.color)
                 }.onDelete(perform: removeItems)
             }
             .navigationBarTitle("iExpense")
-            .navigationBarItems(trailing:
-                Button(action: {
+            .navigationBarItems(
+                leading: EditButton(),
+                trailing: Button(action: {
                     self.showingAddExpense = true
                 }) {
                     Image(systemName: "plus")
@@ -74,6 +76,19 @@ struct ExpenseItem: Identifiable, Codable {
     let name: String
     let type: String
     let amount: Int
+}
+
+extension ExpenseItem {
+    var color: Color {
+        switch amount {
+        case let amount where amount < 10:
+            return Color.green
+        case let amount where amount < 100:
+            return Color.yellow
+        default:
+            return Color.red
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
