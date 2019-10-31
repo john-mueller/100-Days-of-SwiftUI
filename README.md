@@ -48,6 +48,14 @@ After Day 31 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 
 No project files
 
+### [Day35Challenge][day35] (Day 35)
+
+No project files yet
+
+### [iExpense][day36] (Days 36-38)
+
+Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/iExpense))
+
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
 [day16]: https://www.hackingwithswift.com/100/swiftui/16
@@ -58,6 +66,8 @@ No project files
 [day26]: https://www.hackingwithswift.com/100/swiftui/26
 [day29]: https://www.hackingwithswift.com/100/swiftui/29
 [day32]: https://www.hackingwithswift.com/100/swiftui/32
+[day35]: https://www.hackingwithswift.com/100/swiftui/35
+[day36]: https://www.hackingwithswift.com/100/swiftui/36
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
 [xcode-version]: https://img.shields.io/badge/Xcode-11.2%20(beta)-orange.svg
