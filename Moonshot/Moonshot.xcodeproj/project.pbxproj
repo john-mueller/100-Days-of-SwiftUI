@@ -20,6 +20,7 @@
 		2CEECD24236D9C2A00D673B3 /* MIssion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEECD23236D9C2A00D673B3 /* MIssion.swift */; };
 		2CEECD26236E5E7C00D673B3 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEECD25236E5E7C00D673B3 /* MissionView.swift */; };
 		2CEECD28236E653500D673B3 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEECD27236E653500D673B3 /* AstronautView.swift */; };
+		2CEECD2A236F0BCA00D673B3 /* MissionListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEECD29236F0BCA00D673B3 /* MissionListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		2CEECD23236D9C2A00D673B3 /* MIssion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIssion.swift; sourceTree = "<group>"; };
 		2CEECD25236E5E7C00D673B3 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		2CEECD27236E653500D673B3 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		2CEECD29236F0BCA00D673B3 /* MissionListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				2C80FF73236CD368008F2A3E /* AppDelegate.swift */,
 				2C80FF75236CD368008F2A3E /* SceneDelegate.swift */,
 				2C80FF77236CD368008F2A3E /* ContentView.swift */,
+				2CEECD29236F0BCA00D673B3 /* MissionListRow.swift */,
 				2CEECD25236E5E7C00D673B3 /* MissionView.swift */,
 				2CEECD27236E653500D673B3 /* AstronautView.swift */,
 				2CEECD1F236D9AD100D673B3 /* Astronaut.swift */,
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CEECD26236E5E7C00D673B3 /* MissionView.swift in Sources */,
+				2CEECD2A236F0BCA00D673B3 /* MissionListRow.swift in Sources */,
 				2C80FF74236CD368008F2A3E /* AppDelegate.swift in Sources */,
 				2CEECD28236E653500D673B3 /* AstronautView.swift in Sources */,
 				2C80FF76236CD368008F2A3E /* SceneDelegate.swift in Sources */,

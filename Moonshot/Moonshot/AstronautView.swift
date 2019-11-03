@@ -10,6 +10,7 @@ import SwiftUI
 
 struct AstronautView: View {
     let astronaut: Astronaut
+    let missions: [Mission]
 
     var body: some View {
         GeometryReader { geometry in
@@ -19,7 +20,13 @@ struct AstronautView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: geometry.size.width)
-                    
+
+                    ForEach(self.missions) { mission in
+                        MissionListRow(mission: mission, showingNames: false)
+                            .padding(.horizontal)
+                            .padding(.top)
+                    }
+
                     Text(self.astronaut.description)
                         .padding()
                         .layoutPriority(1)
@@ -27,6 +34,18 @@ struct AstronautView: View {
             }
         }
         .navigationBarTitle(Text(astronaut.name), displayMode: .inline)
+    }
+
+    init(astronaut: Astronaut) {
+        self.astronaut = astronaut
+
+        let missions: [Mission] = Bundle.main.decode("missions.json")
+
+        let matches = missions.filter { mission in
+            mission.crew.contains(where: { $0.name == astronaut.id })
+        }
+
+        self.missions = matches
     }
 }
 

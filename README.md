@@ -59,7 +59,8 @@ After Day 38 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 
 ### [Moonshot][day39] (Days 39-42)
 
-Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Moonshot))
+Original project ([2cdbc8d](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/2cdbc8d0a4d8d90bd2c795c080c71f0e8050010d/Moonshot))  
+After Day 42 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Moonshot))
 
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 

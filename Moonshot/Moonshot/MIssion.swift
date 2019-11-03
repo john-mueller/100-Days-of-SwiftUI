@@ -36,4 +36,18 @@ struct Mission: Codable, Identifiable {
             return "N/A"
         }
     }
+
+    var crewMemberString: String {
+        let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
+
+        let crewNames: [String] = crew.map { crewRole in
+            guard let astronaut = astronauts.first(where: { $0.id == crewRole.name }) else {
+                fatalError("Missing crew member")
+            }
+
+            return astronaut.name
+        }
+
+        return crewNames.joined(separator: "\n")
+    }
 }
