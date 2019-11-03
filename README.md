@@ -1,11 +1,11 @@
 # 100-Days-of-SwiftUI
 ![Compatible with Swift 5.1][swift-version]
-![Tested with Xcode 11.2 beta][xcode-version]
-![Tested with iOS 13.1][ios-version]
+![Tested with Xcode 11.2][xcode-version]
+![Tested with iOS 13.2][ios-version]
 
 Here are my solutions to the [100 Days of SwiftUI][100-days] course by Paul Hudson. I very much recommend trying to complete these yourself before looking at other solutions.
 
-**10/12/2019**: There are some bugs with `Picker` in XCode 11.1 that affect my Day19Challenge project in particular. They are fixed in the current XCode 11.2 beta (11B44) using the iOS 13.2 simulator.
+**10/12/2019**: There are some bugs with `Picker` in XCode 11.1 that affect my Day19Challenge project in particular. They are fixed in XCode 11.2 using the iOS 13.2 simulator.
 
 ## Contents 
 
@@ -57,6 +57,10 @@ No project files yet
 Original project ([e032bb4](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/e032bb489ef0f1834f7721f0bfad8864b7cc2f2f/iExpense))  
 After Day 38 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/iExpense))
 
+### [Moonshot][day39] (Days 39-42)
+
+Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Moonshot))
+
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
 [day16]: https://www.hackingwithswift.com/100/swiftui/16
@@ -69,7 +73,8 @@ After Day 38 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 [day32]: https://www.hackingwithswift.com/100/swiftui/32
 [day35]: https://www.hackingwithswift.com/100/swiftui/35
 [day36]: https://www.hackingwithswift.com/100/swiftui/36
+[day39]: https://www.hackingwithswift.com/100/swiftui/39
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
-[xcode-version]: https://img.shields.io/badge/Xcode-11.2%20(beta)-orange.svg
-[ios-version]: https://img.shields.io/badge/iOS-13.2%20(beta)-orange.svg
+[xcode-version]: https://img.shields.io/badge/Xcode-11.2-green.svg
+[ios-version]: https://img.shields.io/badge/iOS-13.2-green.svg
