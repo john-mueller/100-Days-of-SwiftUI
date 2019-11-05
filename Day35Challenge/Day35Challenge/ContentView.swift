@@ -9,8 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = Model()
+
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            FrameReader()
+
+            if model.gameState == .setup {
+                SetupView()
+            } else {
+                GameView()
+            }
+        }
+        .environmentObject(model)
     }
 }
 
