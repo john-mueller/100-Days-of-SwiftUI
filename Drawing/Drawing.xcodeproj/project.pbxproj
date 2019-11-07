@@ -20,6 +20,8 @@
 		2CFD5CE523744AC60072BD26 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CE423744AC60072BD26 /* Trapezoid.swift */; };
 		2CFD5CE723744AD10072BD26 /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CE623744AD10072BD26 /* Checkerboard.swift */; };
 		2CFD5CE923744B980072BD26 /* Spirograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CE823744B980072BD26 /* Spirograph.swift */; };
+		2CFD5CEB237463ED0072BD26 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CEA237463ED0072BD26 /* Arrow.swift */; };
+		2CFD5CED23746B110072BD26 /* ColorCyclingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CEC23746B110072BD26 /* ColorCyclingRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		2CFD5CE423744AC60072BD26 /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
 		2CFD5CE623744AD10072BD26 /* Checkerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
 		2CFD5CE823744B980072BD26 /* Spirograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirograph.swift; sourceTree = "<group>"; };
+		2CFD5CEA237463ED0072BD26 /* Arrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
+		2CFD5CEC23746B110072BD26 /* ColorCyclingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				2CFD5CE023744A550072BD26 /* ColorCyclingCircle.swift */,
 				2CFD5CDE23744A0C0072BD26 /* Flower.swift */,
 				2CFD5CDC237449AF0072BD26 /* Arc.swift */,
+				2CFD5CEA237463ED0072BD26 /* Arrow.swift */,
+				2CFD5CEC23746B110072BD26 /* ColorCyclingRectangle.swift */,
 				2CFD5CCE2373BBA20072BD26 /* Assets.xcassets */,
 				2CFD5CD32373BBA20072BD26 /* LaunchScreen.storyboard */,
 				2CFD5CD62373BBA20072BD26 /* Info.plist */,
@@ -170,9 +176,11 @@
 				2CFD5CE923744B980072BD26 /* Spirograph.swift in Sources */,
 				2CFD5CC92373BB9F0072BD26 /* AppDelegate.swift in Sources */,
 				2CFD5CE123744A550072BD26 /* ColorCyclingCircle.swift in Sources */,
+				2CFD5CED23746B110072BD26 /* ColorCyclingRectangle.swift in Sources */,
 				2CFD5CCB2373BB9F0072BD26 /* SceneDelegate.swift in Sources */,
 				2CFD5CE723744AD10072BD26 /* Checkerboard.swift in Sources */,
 				2CFD5CDF23744A0C0072BD26 /* Flower.swift in Sources */,
+				2CFD5CEB237463ED0072BD26 /* Arrow.swift in Sources */,
 				2CFD5CE523744AC60072BD26 /* Trapezoid.swift in Sources */,
 				2CFD5CDD237449AF0072BD26 /* Arc.swift in Sources */,
 				2CFD5CE323744A910072BD26 /* BlendModeDemo.swift in Sources */,

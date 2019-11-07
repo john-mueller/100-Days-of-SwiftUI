@@ -42,11 +42,15 @@ extension ContentView {
             return AnyView(FlowerDemo())
         case .arc:
             return AnyView(ArcDemo())
+        case .arrow:
+            return AnyView(ArrowDemo())
+        case .colorCyclingRectangle:
+            return AnyView(ColorCyclingRectangleDemo())
         }
     }
 
     enum ViewType: String, CaseIterable {
-        case spirograph, checkerboard, trapezoid, blendMode, colorCyclingCircle, flower, arc
+        case spirograph, checkerboard, trapezoid, blendMode, colorCyclingCircle, flower, arc, arrow, colorCyclingRectangle
 
         var typeString: String {
             rawValue.prefix(1).uppercased() + rawValue.dropFirst() + " Demo"
