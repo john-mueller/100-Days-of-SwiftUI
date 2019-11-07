@@ -13,6 +13,13 @@
 		2CFD5CCF2373BBA20072BD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD5CCE2373BBA20072BD26 /* Assets.xcassets */; };
 		2CFD5CD22373BBA20072BD26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD5CD12373BBA20072BD26 /* Preview Assets.xcassets */; };
 		2CFD5CD52373BBA20072BD26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD5CD32373BBA20072BD26 /* LaunchScreen.storyboard */; };
+		2CFD5CDD237449AF0072BD26 /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CDC237449AF0072BD26 /* Arc.swift */; };
+		2CFD5CDF23744A0C0072BD26 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CDE23744A0C0072BD26 /* Flower.swift */; };
+		2CFD5CE123744A550072BD26 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CE023744A550072BD26 /* ColorCyclingCircle.swift */; };
+		2CFD5CE323744A910072BD26 /* BlendModeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CE223744A910072BD26 /* BlendModeDemo.swift */; };
+		2CFD5CE523744AC60072BD26 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CE423744AC60072BD26 /* Trapezoid.swift */; };
+		2CFD5CE723744AD10072BD26 /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CE623744AD10072BD26 /* Checkerboard.swift */; };
+		2CFD5CE923744B980072BD26 /* Spirograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD5CE823744B980072BD26 /* Spirograph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		2CFD5CD12373BBA20072BD26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CFD5CD42373BBA20072BD26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CFD5CD62373BBA20072BD26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFD5CDC237449AF0072BD26 /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		2CFD5CDE23744A0C0072BD26 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		2CFD5CE023744A550072BD26 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
+		2CFD5CE223744A910072BD26 /* BlendModeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeDemo.swift; sourceTree = "<group>"; };
+		2CFD5CE423744AC60072BD26 /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
+		2CFD5CE623744AD10072BD26 /* Checkerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
+		2CFD5CE823744B980072BD26 /* Spirograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirograph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				2CFD5CC82373BB9F0072BD26 /* AppDelegate.swift */,
 				2CFD5CCA2373BB9F0072BD26 /* SceneDelegate.swift */,
 				2CFD5CCC2373BB9F0072BD26 /* ContentView.swift */,
+				2CFD5CE823744B980072BD26 /* Spirograph.swift */,
+				2CFD5CE623744AD10072BD26 /* Checkerboard.swift */,
+				2CFD5CE423744AC60072BD26 /* Trapezoid.swift */,
+				2CFD5CE223744A910072BD26 /* BlendModeDemo.swift */,
+				2CFD5CE023744A550072BD26 /* ColorCyclingCircle.swift */,
+				2CFD5CDE23744A0C0072BD26 /* Flower.swift */,
+				2CFD5CDC237449AF0072BD26 /* Arc.swift */,
 				2CFD5CCE2373BBA20072BD26 /* Assets.xcassets */,
 				2CFD5CD32373BBA20072BD26 /* LaunchScreen.storyboard */,
 				2CFD5CD62373BBA20072BD26 /* Info.plist */,
@@ -146,8 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFD5CE923744B980072BD26 /* Spirograph.swift in Sources */,
 				2CFD5CC92373BB9F0072BD26 /* AppDelegate.swift in Sources */,
+				2CFD5CE123744A550072BD26 /* ColorCyclingCircle.swift in Sources */,
 				2CFD5CCB2373BB9F0072BD26 /* SceneDelegate.swift in Sources */,
+				2CFD5CE723744AD10072BD26 /* Checkerboard.swift in Sources */,
+				2CFD5CDF23744A0C0072BD26 /* Flower.swift in Sources */,
+				2CFD5CE523744AC60072BD26 /* Trapezoid.swift in Sources */,
+				2CFD5CDD237449AF0072BD26 /* Arc.swift in Sources */,
+				2CFD5CE323744A910072BD26 /* BlendModeDemo.swift in Sources */,
 				2CFD5CCD2373BB9F0072BD26 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

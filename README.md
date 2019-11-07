@@ -62,6 +62,10 @@ After Day 38 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 Original project ([2cdbc8d](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/2cdbc8d0a4d8d90bd2c795c080c71f0e8050010d/Moonshot))  
 After Day 42 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Moonshot))
 
+### [Drawing][day43] (Days 43-46)
+
+Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Drawing))
+
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
 [day16]: https://www.hackingwithswift.com/100/swiftui/16
@@ -75,6 +79,7 @@ After Day 42 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 [day35]: https://www.hackingwithswift.com/100/swiftui/35
 [day36]: https://www.hackingwithswift.com/100/swiftui/36
 [day39]: https://www.hackingwithswift.com/100/swiftui/39
+[day43]: https://www.hackingwithswift.com/100/swiftui/43
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
 [xcode-version]: https://img.shields.io/badge/Xcode-11.2-green.svg
