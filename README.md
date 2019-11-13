@@ -67,6 +67,14 @@ After Day 42 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 Original project ([566ab8e](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/566ab8e2b4a7bbc7c7d5687aeb82b39f6c7f1a50/Drawing))  
 After Day 46 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Drawing))
 
+### [Day47Challenge][day47] (Day 47)
+
+No project files yet
+
+### [CupcakeCorner][day49] (Days 49-52)
+
+Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/CupcakeCorner))  
+
 
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
@@ -82,6 +90,8 @@ After Day 46 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 [day36]: https://www.hackingwithswift.com/100/swiftui/36
 [day39]: https://www.hackingwithswift.com/100/swiftui/39
 [day43]: https://www.hackingwithswift.com/100/swiftui/43
+[day47]: https://www.hackingwithswift.com/100/swiftui/47
+[day49]: https://www.hackingwithswift.com/100/swiftui/49
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
 [xcode-version]: https://img.shields.io/badge/Xcode-11.2-green.svg
