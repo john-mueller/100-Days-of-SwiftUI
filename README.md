@@ -73,8 +73,8 @@ No project files yet
 
 ### [CupcakeCorner][day49] (Days 49-52)
 
-Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/CupcakeCorner))  
-
+Original project ([3386229](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/33862290bbe8c94f89e23b9b212e41d81e9f516c/CupcakeCorner))  
+After Day 52 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/CupcakeCorner))
 
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
