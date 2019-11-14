@@ -69,7 +69,7 @@ After Day 46 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 
 ### [Day47Challenge][day47] (Day 47)
 
-No project files yet
+Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Day47Challenge))
 
 ### [CupcakeCorner][day49] (Days 49-52)
 
