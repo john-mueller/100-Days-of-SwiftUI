@@ -14,6 +14,10 @@
 		2C301952237F177100B46EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C301951237F177100B46EEA /* Assets.xcassets */; };
 		2C301955237F177100B46EEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C301954237F177100B46EEA /* Preview Assets.xcassets */; };
 		2C301958237F177100B46EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C301956237F177100B46EEA /* LaunchScreen.storyboard */; };
+		2CCC900F237F9FC800AA4F7D /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC900E237F9FC800AA4F7D /* AddBookView.swift */; };
+		2CCC9011237FA44000AA4F7D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC9010237FA44000AA4F7D /* RatingView.swift */; };
+		2CCC9013237FA5C100AA4F7D /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC9012237FA5C100AA4F7D /* EmojiRatingView.swift */; };
+		2CCC90332380C08500AA4F7D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC90322380C08500AA4F7D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		2C301954237F177100B46EEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C301957237F177100B46EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C301959237F177100B46EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCC900E237F9FC800AA4F7D /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		2CCC9010237FA44000AA4F7D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		2CCC9012237FA5C100AA4F7D /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		2CCC90322380C08500AA4F7D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				2C301948237F176E00B46EEA /* AppDelegate.swift */,
 				2C30194A237F176E00B46EEA /* SceneDelegate.swift */,
 				2C30194F237F176E00B46EEA /* ContentView.swift */,
+				2CCC9012237FA5C100AA4F7D /* EmojiRatingView.swift */,
+				2CCC900E237F9FC800AA4F7D /* AddBookView.swift */,
+				2CCC9010237FA44000AA4F7D /* RatingView.swift */,
+				2CCC90322380C08500AA4F7D /* DetailView.swift */,
 				2C301951237F177100B46EEA /* Assets.xcassets */,
 				2C301956237F177100B46EEA /* LaunchScreen.storyboard */,
 				2C301959237F177100B46EEA /* Info.plist */,
@@ -150,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C301949237F176E00B46EEA /* AppDelegate.swift in Sources */,
+				2CCC90332380C08500AA4F7D /* DetailView.swift in Sources */,
 				2C30194E237F176E00B46EEA /* Bookworm.xcdatamodeld in Sources */,
+				2CCC9013237FA5C100AA4F7D /* EmojiRatingView.swift in Sources */,
 				2C301950237F176E00B46EEA /* ContentView.swift in Sources */,
+				2CCC9011237FA44000AA4F7D /* RatingView.swift in Sources */,
 				2C30194B237F176E00B46EEA /* SceneDelegate.swift in Sources */,
+				2CCC900F237F9FC800AA4F7D /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

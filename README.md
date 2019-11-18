@@ -76,6 +76,10 @@ Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/t
 Original project ([3386229](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/33862290bbe8c94f89e23b9b212e41d81e9f516c/CupcakeCorner))  
 After Day 52 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/CupcakeCorner))
 
+### [Bookworm][day53] (Days 53-56)
+
+Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Bookworm))  
+
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
 [day16]: https://www.hackingwithswift.com/100/swiftui/16
@@ -92,6 +96,7 @@ After Day 52 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 [day43]: https://www.hackingwithswift.com/100/swiftui/43
 [day47]: https://www.hackingwithswift.com/100/swiftui/47
 [day49]: https://www.hackingwithswift.com/100/swiftui/49
+[day53]: https://www.hackingwithswift.com/100/swiftui/53
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
 [xcode-version]: https://img.shields.io/badge/Xcode-11.2-green.svg
