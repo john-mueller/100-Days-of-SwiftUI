@@ -15,10 +15,10 @@ struct AddBookView: View {
     @State private var title = ""
     @State private var author = ""
     @State private var rating = 3
-    @State private var genre = ""
+    @State private var genre = "Unknown"
     @State private var review = ""
 
-    let genres = ["Fantasy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
+    let genres = ["Unknown", "Fantasy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
 
     var body: some View {
         NavigationView {
@@ -42,11 +42,12 @@ struct AddBookView: View {
                 Section {
                     Button("Save") {
                         let newBook = Book(context: self.moc)
-                        newBook.title = self.title
-                        newBook.author = self.author
+                        newBook.title = self.hasValidInput(self.title, otherwise: "Unknown Book")
+                        newBook.author = self.hasValidInput(self.author, otherwise: "Unknown Author")
                         newBook.rating = Int16(self.rating)
-                        newBook.genre = self.genre
-                        newBook.review = self.review
+                        newBook.genre = self.hasValidInput(self.genre, otherwise: "Unknown")
+                        newBook.review = self.hasValidInput(self.review, otherwise: "No review")
+                        newBook.date = Date()
 
                         try? self.moc.save()
 
@@ -55,6 +56,15 @@ struct AddBookView: View {
                 }
                 .navigationBarTitle("Add Book")
             }
+        }
+    }
+
+    func hasValidInput(_ string: String, otherwise: String) -> String {
+        let trimmed = string.trimmingCharacters(in: .whitespaces)
+        if trimmed.isEmpty {
+            return otherwise
+        } else {
+            return trimmed
         }
     }
 }

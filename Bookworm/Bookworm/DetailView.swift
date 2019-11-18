@@ -20,10 +20,10 @@ struct DetailView: View {
         GeometryReader { geometry in
             VStack {
                 ZStack(alignment: .bottomTrailing) {
-                    Image(self.book.genre ?? "Fantasy")
+                    Image(self.book.genre ?? "Unknown")
                         .frame(maxWidth: geometry.size.width)
 
-                    Text(self.book.genre?.uppercased() ?? "FANTASY")
+                    Text(self.book.genre?.uppercased() ?? "UNKNOWN")
                         .font(.caption)
                         .fontWeight(.black)
                         .padding(8)
@@ -36,6 +36,10 @@ struct DetailView: View {
                 Text(self.book.author ?? "Unknown author")
                     .font(.title)
                     .foregroundColor(.secondary)
+
+                if self.book.date != nil {
+                    Text(self.stringFrom(date: self.book.date!))
+                }
 
                 Text(self.book.review ?? "No review")
                     .padding()
@@ -64,6 +68,12 @@ struct DetailView: View {
 
         try? moc.save()
         presentationMode.wrappedValue.dismiss()
+    }
+
+    func stringFrom(date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        return "Finished \(formatter.string(from: date))"
     }
 }
 
