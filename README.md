@@ -81,6 +81,11 @@ After Day 52 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 Original project ([d9b9386](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/d9b938601a477f96840c8037a36eb0d2c59526dc/Bookworm))  
 After Day 56 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Bookworm))
 
+### [CoreDataProject][day57] (Days 57-59)
+
+Original project ([39f4faa](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/39f4faa9163f0c158c503eaf8dfd6e38b631f61a/CoreDataProject))  
+After Day 59 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/CoreDataProject))
+
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
 [day16]: https://www.hackingwithswift.com/100/swiftui/16
