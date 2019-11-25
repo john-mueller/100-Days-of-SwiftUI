@@ -86,6 +86,10 @@ After Day 56 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 Original project ([39f4faa](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/39f4faa9163f0c158c503eaf8dfd6e38b631f61a/CoreDataProject))  
 After Day 59 challenges ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/CoreDataProject))
 
+### [Day60Challenge][day60] (Day 60)
+
+Original project ([master](https://github.com/john-mueller/100-Days-of-SwiftUI/tree/master/Day60Challenge))
+
 [100-days]: https://www.hackingwithswift.com/100/swiftui
 
 [day16]: https://www.hackingwithswift.com/100/swiftui/16
@@ -104,6 +108,7 @@ After Day 59 challenges ([master](https://github.com/john-mueller/100-Days-of-Sw
 [day49]: https://www.hackingwithswift.com/100/swiftui/49
 [day53]: https://www.hackingwithswift.com/100/swiftui/53
 [day57]: https://www.hackingwithswift.com/100/swiftui/57
+[day60]: https://www.hackingwithswift.com/100/swiftui/60
 
 [swift-version]: https://img.shields.io/badge/Swift-5.1-green.svg
 [xcode-version]: https://img.shields.io/badge/Xcode-11.2-green.svg

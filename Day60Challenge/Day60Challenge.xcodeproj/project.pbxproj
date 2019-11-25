@@ -13,6 +13,14 @@
 		2C4F015723877EC50017063C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F015623877EC50017063C /* Assets.xcassets */; };
 		2C4F015A23877EC50017063C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F015923877EC50017063C /* Preview Assets.xcassets */; };
 		2C4F015D23877EC50017063C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F015B23877EC50017063C /* LaunchScreen.storyboard */; };
+		2C4F016523877F4C0017063C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F016423877F4C0017063C /* User.swift */; };
+		2C4F016723877F6B0017063C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F016623877F6B0017063C /* Friend.swift */; };
+		2C4F0169238785690017063C /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F0168238785690017063C /* UserView.swift */; };
+		2C4F016B238785840017063C /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F016A238785840017063C /* UserRowView.swift */; };
+		2C4F016D23880B880017063C /* UserListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F016C23880B880017063C /* UserListModel.swift */; };
+		2C4F0177238870510017063C /* ActiveIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F0176238870510017063C /* ActiveIndicator.swift */; };
+		2C4F017B238C1EDE0017063C /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F017A238C1EDE0017063C /* TagsView.swift */; };
+		2C4F017D238C24D20017063C /* AboutHeightReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F017C238C24D20017063C /* AboutHeightReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		2C4F015923877EC50017063C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C4F015C23877EC50017063C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C4F015E23877EC50017063C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4F016423877F4C0017063C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2C4F016623877F6B0017063C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		2C4F0168238785690017063C /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		2C4F016A238785840017063C /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		2C4F016C23880B880017063C /* UserListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListModel.swift; sourceTree = "<group>"; };
+		2C4F0176238870510017063C /* ActiveIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveIndicator.swift; sourceTree = "<group>"; };
+		2C4F017A238C1EDE0017063C /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
+		2C4F017C238C24D20017063C /* AboutHeightReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutHeightReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,14 @@
 				2C4F015023877EC30017063C /* AppDelegate.swift */,
 				2C4F015223877EC30017063C /* SceneDelegate.swift */,
 				2C4F015423877EC30017063C /* ContentView.swift */,
+				2C4F016A238785840017063C /* UserRowView.swift */,
+				2C4F0168238785690017063C /* UserView.swift */,
+				2C4F017A238C1EDE0017063C /* TagsView.swift */,
+				2C4F017C238C24D20017063C /* AboutHeightReader.swift */,
+				2C4F0176238870510017063C /* ActiveIndicator.swift */,
+				2C4F016C23880B880017063C /* UserListModel.swift */,
+				2C4F016423877F4C0017063C /* User.swift */,
+				2C4F016623877F6B0017063C /* Friend.swift */,
 				2C4F015623877EC50017063C /* Assets.xcassets */,
 				2C4F015B23877EC50017063C /* LaunchScreen.storyboard */,
 				2C4F015E23877EC50017063C /* Info.plist */,
@@ -146,8 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4F017D238C24D20017063C /* AboutHeightReader.swift in Sources */,
+				2C4F016B238785840017063C /* UserRowView.swift in Sources */,
+				2C4F016523877F4C0017063C /* User.swift in Sources */,
+				2C4F0177238870510017063C /* ActiveIndicator.swift in Sources */,
+				2C4F016D23880B880017063C /* UserListModel.swift in Sources */,
+				2C4F0169238785690017063C /* UserView.swift in Sources */,
 				2C4F015123877EC30017063C /* AppDelegate.swift in Sources */,
+				2C4F016723877F6B0017063C /* Friend.swift in Sources */,
 				2C4F015323877EC30017063C /* SceneDelegate.swift in Sources */,
+				2C4F017B238C1EDE0017063C /* TagsView.swift in Sources */,
 				2C4F015523877EC30017063C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
